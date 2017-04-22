@@ -1,18 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
-	<title>Document</title>
+    <meta charset="utf-8">
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon shortcut" href="img/default.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 </head>
 <body>
-	<h1>HELLO! THAT'S TEST!</h1>
-	<div class="circle"></div>
-	<div class="circle"></div>
-	<div class="circle"></div>
-	<div class="circle"></div>
-	<div class="circle"></div>
-	<div class="circle"></div>
-		
+
+<div id="page">
+    <div id="wrap">
+        <div id="stars3"></div>
+    </div>
+
+    <div id="beeline">
+        <div class="middle-header">
+            <img id="logo" src="data:image/png;base64,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" alt="logo">
+            <h1 id="h1">Добро пожаловать</h1>
+        </div>
+
+        <div id="text">
+            <p id="bold">В систему исполнения процессов <br> Единого Информационного Пространства</p>
+            <p>Система позволяет автоматизировать функционал каждого участника организованной группы пользователей в процессе их взаимодействия, преобразуя входящие данные в исходящие, для получения заранее определенных результатов</p>
+            <button id="button-next" onclick="redirect()" autofocus>Далее</button>
+            <br>
+            <p id="help">Для входа необходимо иметь свои данные в системе</p>
+        </div>
+    </div>
+    <div id="description"></div>
+</div>
+
+<div id="footer">
+    <div id="container">
+        <p id="left-menu">
+            <a href="mailto: market@atlant-inform.ru">
+                <img class="mailto" src="data:image/png;base64,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">
+            </a>
+            market@atlant-inform.ru
+        </p>
+        <ul id="right-menu">
+            <li><a href="help" target="_blank">Помощь</a></li>
+            <li><a href="support" target="_blank">Обратная связь</a></li>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>
