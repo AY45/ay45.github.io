@@ -312,7 +312,7 @@
     }
 
     #logo {
-    width: 11%;
+    width: 30%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -333,7 +333,7 @@
 
     #text {
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 2.4rem;
     }
 
     #bold {
@@ -385,9 +385,28 @@
     }
 
     #container {
-        width: 900px;
+        width: 70%;
         margin: 15px auto;
         padding: 0 25px 0 25px;
+    }
+
+    #left-menu {
+        float: left;
+    }
+
+    #right-menu {
+        float: right;
+    }
+
+    #right-menu li {
+        list-style-type: none;
+        float: left;
+        border-bottom: 1px dashed rgba(40,40,40,.33);
+        margin-left: 20px;
+        cursor: pointer;
+    }
+    #right-menu li:hover {
+        color: rgba(0, 0, 0, 0.8);
     }
 
 
