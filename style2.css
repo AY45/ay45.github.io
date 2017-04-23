@@ -48,7 +48,7 @@ body.visible {
     content: " ";
     position: absolute;
     top: 2000px;
-    width: 0.29%px;
+    width: 0.29%;
     height: 0.39%;
     background: transparent;
     box-shadow: 371px 1573px #fff, 1905px 578px #000, 635px 1501px #000, 435px 1022px #000, 451px 146px #000, 67px 1834px #000, 1561px 1839px #000, 1753px 815px #000, 581px 411px #000, 294px 1979px #000, 619px 1903px #000, 198px 1098px #000, 1916px 757px #000, 1767px 1623px #000, 517px 119px #000, 170px 1870px #000, 1457px 1365px #000, 1523px 207px #000, 627px 4px #000, 1878px 271px #000, 944px 749px #000, 561px 742px #000, 401px 1459px #000, 1416px 11px #000, 1237px 1531px #000, 699px 311px #000, 820px 1207px #000, 481px 298px #000, 1990px 603px #000, 136px 194px #000, 1672px 1375px #000, 170px 914px #000, 1628px 1383px #000, 299px 677px #000, 1074px 388px #000, 1683px 88px #000, 319px 1518px #000, 586px 7px #000, 1157px 1745px #000, 728px 1226px #000, 707px 382px #000, 1336px 799px #000, 189px 1202px #000, 395px 1112px #000, 176px 1896px #000, 595px 923px #000, 1009px 1010px #000, 520px 1490px #000, 604px 1382px #000, 1342px 311px #000, 1328px 840px #000, 455px 769px #000, 287px 1796px #000, 1794px 1866px #000, 573px 1497px #000, 1260px 1700px #000, 1068px 522px #000, 873px 930px #000, 872px 901px #000, 1197px 1191px #000, 1863px 1981px #000, 1100px 322px #000, 1370px 620px #000, 1698px 1290px #000, 1682px 25px #000, 941px 8px #000, 1030px 533px #000, 1816px 1918px #000, 783px 25px #000, 1668px 1834px #000, 1836px 401px #000, 366px 585px #000, 899px 22px #000, 1459px 1997px #000, 290px 49px #000, 1043px 1121px #000, 1471px 1186px #000, 198px 25px #000, 838px 1617px #000, 1625px 1914px #000, 1370px 1771px #000, 76px 1143px #000, 726px 816px #000, 474px 1063px #000, 1209px 864px #000, 433px 1070px #000, 1601px 67px #000, 931px 1237px #000, 474px 863px #000, 1262px 1725px #000, 389px 888px #000, 37px 1614px #000, 1581px 204px #000, 144px 951px #000, 1862px 44px #000, 1255px 798px #000, 54px 1794px #000, 1427px 389px #000, 1272px 1360px #000, 1608px 845px #000;
@@ -78,8 +78,8 @@ a {
 
 .mailto {
     display: inline;
-    width: 20px;
-    height: 14px;
+    width: 6%;
+    height: 8%;
     vertical-align: middle;
     margin-top: -2px;
     opacity: 0.7;
@@ -195,8 +195,8 @@ a {
     top: 0;
     padding: 30px;
     margin: 30px;
-    width: calc(100% - 120px);
-    height: calc(100% - 120px);
+    width: calc(100% - 8.5%);
+    height: calc(100% - 10%);
 }
 
 #container {
