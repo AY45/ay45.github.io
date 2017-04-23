@@ -390,11 +390,14 @@
     }
 
     #left-menu {
+        
+        margin-top: 2%;
         float: left;
         font-size: 2rem;
     }
 
     #right-menu {
+        margin-top: 2%;
         float: right;
     }
 
